@@ -1,26 +1,25 @@
-# Blog API
+# README
 
-This Blog API is built with Ruby on Rails, providing endpoints for user authentication, CRUD operations for blog posts, and a like feature. 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## API Endpoints
+Things you may want to cover:
 
-### Authentication
-- **POST /signup** - Register a new user with `name`, `username`, `email`, and `password`.
-- **POST /login** - Log in a user with `email` and `password`, returning a JWT token.
+* Ruby version
 
-### Blog Posts
-- **POST /posts** - Create a new blog post. Requires authentication. Accepts `title` and `content`.
-- **GET /posts** - Retrieve all blog posts. Supports pagination with `page` query parameter.
-- **GET /posts/:id** - Retrieve a specific blog post by its `id`.
-- **PATCH /posts/:id** - Update a blog post. Requires authentication and ownership.
-- **DELETE /posts/:id** - Delete a blog post. Requires authentication and ownership.
+* System dependencies
 
-### Likes
-- **GET /posts/:id/likes_count** - Retrieve the `likes_count` for a specific post.
+* Configuration
 
-## Running the API Locally
+* Database creation
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Troopersat/Blog_api.git
-   cd Blog_api
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+>>>>>>> ccca836 (Initial commit)
